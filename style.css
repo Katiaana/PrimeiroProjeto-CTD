@@ -1,0 +1,81 @@
+body {
+    font-size: 15px;
+    background: whitesmoke;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 80px 0;
+    background-color: white;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+    color: white;
+    text-align: left;
+    padding: 0 25px;
+}
+
+.leardsedan {
+    background-color: white;
+    border-radius: 25px;
+    border: none;
+    color: rgb(223, 127, 18);
+    padding: 10px;
+}
+
+.produtos li {
+    display: inline-block; 
+    text-align: center;
+    width: 25%;
+    height: 45%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    border: none;
+}
+
+.produtos h2 {
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    width: bold;
+    color: whitesmoke;
+}
+
+.sedan {
+    background: darkorange;
+    padding: 75px 0;
+    border-radius: 5px;
+}
+
+.suv {
+    background: #3CB371;
+    padding: 75px 0;
+}
+
+.luxury {
+    background: #1b7544;
+    padding: 75px 0;
+}
+
+.leardsuv {
+    background-color: white;
+    border-radius: 25px;
+    border: none;
+    color: #3CB371;
+    padding: 10px;
+}
+
+.leardluxury {
+    background-color: white;
+    border-radius: 25px;
+    border: none;
+    color: #1b7544;
+    padding: 10px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); 
+}
