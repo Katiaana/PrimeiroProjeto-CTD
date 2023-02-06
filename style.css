@@ -1,81 +1,108 @@
 body {
     font-size: 15px;
-    background: whitesmoke;
+    background: white;
 }
 
-.produtos {
-    width: 940px;
-    margin: 0 auto;
-    padding: 80px 0;
-    background-color: white;
+.conteiner {
+    display: flex;
+    max-width: 940px;
+    min-width: 320px;
+    height: 2px 0 2px 0;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 8px 8px 140px;
+    padding: 2px 75px;
 }
 
-p {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 12px;
+.icone {
+    display: inline;
+    padding: 0 48px;
+}
+
+.conteiner h2 {
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 45px;
+    width: bold;
+    padding: 0 0 0 50px ;
+    color: whitesmoke;
+}
+
+.conteiner p {
+    font-family: Lexend Deca;
+    font-size: 16px;
     color: white;
     text-align: left;
-    padding: 0 25px;
+    padding: 0 2px;
+    margin: 2px 45px 55px 45px;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    padding: 55px 1px;
+    border-radius: 5px 0 0 5px;
+}
+
+.suvs {
+    background-color:hsl(184, 100%, 22%) ;
+    padding: 55px 1px;
+}
+
+.luxury {
+    background:hsl(179, 100%, 13%);
+    border-radius: 0 5px 5px 0;
+    padding: 55px 1px;
 }
 
 .leardsedan {
     background-color: white;
+    font-size: 13px;
     border-radius: 25px;
     border: none;
     color: rgb(223, 127, 18);
-    padding: 10px;
-}
-
-.produtos li {
-    display: inline-block; 
-    text-align: center;
-    width: 25%;
-    height: 45%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    border: none;
-}
-
-.produtos h2 {
-    text-transform: uppercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
-    width: bold;
-    color: whitesmoke;
-}
-
-.sedan {
-    background: darkorange;
-    padding: 75px 0;
-    border-radius: 5px;
-}
-
-.suv {
-    background: #3CB371;
-    padding: 75px 0;
-}
-
-.luxury {
-    background: #1b7544;
-    padding: 75px 0;
+    padding: 15px 40px;
+    margin: 15px 0 0 45px;
 }
 
 .leardsuv {
     background-color: white;
+    font-size: 13px;
     border-radius: 25px;
     border: none;
-    color: #3CB371;
-    padding: 10px;
+    color: hsl(184, 100%, 22%);
+    padding: 15px 40px;
+    margin: 15px 0 0 45px;
 }
 
 .leardluxury {
     background-color: white;
+    font-size: 13px;
     border-radius: 25px;
     border: none;
-    color: #1b7544;
-    padding: 10px;
+    color: hsl(179, 100%, 13%);
+    padding: 15px 40px;
+    margin: 15px 0 0 45px;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); 
+.sedans button:hover {
+    background-color:rgb(227, 134, 28) ;
+    cursor: pointer;
+    border:2px solid white;
+    color: white;
+    
+}
+
+.suvs button:hover {
+    background-color:hsl(184, 100%, 22%);
+    cursor: pointer;
+    border:2px solid white;
+    color: white;
+}
+
+.luxury button:hover {
+    background-color:hsl(179, 100%, 13%);
+    cursor: pointer;
+    border:2px solid white;
+    color: white;
 }
