@@ -92,7 +92,6 @@ body {
 .sedans button:hover {
     background-color:rgb(227, 134, 28) ;
     cursor: pointer;
-    border:2px solid white;
     color: white;
     
 }
@@ -100,7 +99,6 @@ body {
 .suvs button:hover {
     background-color:hsl(184, 100%, 22%);
     cursor: pointer;
-    border:2px solid white;
     color: white;
 }
 
